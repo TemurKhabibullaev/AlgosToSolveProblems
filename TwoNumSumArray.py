@@ -2,7 +2,6 @@
 # Find which two values in the list result in targetsum
 
 def twoNumberSum(list, targetSum):
-    # Write your code here.
 	list.sort()
     left = 0
     right = len(list) - 1
